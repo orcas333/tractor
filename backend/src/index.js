@@ -63,8 +63,6 @@ app.get('/level', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-    // res.send("Sending y'all a file...")
-    // res.sendFile(path.join(__dirname, 'index.html'));
     res.sendFile(path.join(__dirname + "/../../frontend/build/index.html"));
 });
 
